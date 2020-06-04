@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header part start */
+
+.header-part {
+    background-color: #ECEAEA;
+}
+
+
+/* header part end */
+
+
+/* slider part start */
+
+.slider-full {
+    background-color: #E6B6C6;
+    padding: 30px 0px;
+}
+
+.slider-image img {}
+
+.slider-content {
+    padding-left: 40px;
+}
+
+.slider-content h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.slider-content h3 {
+    font-weight: bold;
+    color: #FF247A;
+    padding-top: 5px;
+}
+
+.btn-custom {
+    background-color: #FF247A;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+    color: #FF247A;
+    border: 1px solid #FF247A;
+}
+
+
+/* slider part end */
+
+
+/* category part start */
+
+#categories-part {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.first-category h3,
+.second-category h3,
+.third-category h3 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.first-category {
+    background-image: linear-gradient(#F6C263, #FCAD1A);
+    border: 14px solid #ffffff;
+    border-radius: 25px;
+}
+
+.second-category {
+    background-image: linear-gradient(#E43E8C, #E07ACB);
+    border: 14px solid #ffffff;
+    border-radius: 25px;
+}
+
+.third-category {
+    background-image: linear-gradient(#3E3BE3, #5B71F0);
+    border: 14px solid #ffffff;
+    border-radius: 25px;
+}
+
+
+/* category part end */
+
+
+/* details part start */
+
+.details-part {}
+
+.details-full {
+    background-color: #F4ECEC;
+    box-shadow: 7px 7px 25px #ddd;
+}
+
+.details-header h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.card-body h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.card-body p {
+    font-size: 14px;
+}
+
+.card-body h5 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.details-second-part {
+    padding-top: 50px;
+}
+
+#footer-part {
+    margin-top: 55px;
+    background-color: #E6B6C6;
+    padding-bottom: 30px;
+}
+
+.footer-inner {
+    text-align: center;
+}
+
+.footer-inner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.footer-inner p {
+    font-weight: bold;
+    font-synthesis: 18px;
+}
+
+.footer-inner input {
+    border: 2px solid #ddd;
+    font-size: 20px;
+    padding-left: 16px;
+    margin-left: 435px;
+    font-family: arial;
+    display: block;
+}
+
+
+/* details part end */
+
+
+/* last part start */
+
+#last-part {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#last-part h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+
+/* last part end */

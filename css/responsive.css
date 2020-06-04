@@ -1,0 +1,106 @@
+/* Extra small devices (portrait phones, less than 576px */
+
+@media (max-width: 575.98px) {
+    .slider-image img {
+        width: 269px;
+        padding-top: 45px;
+        padding-left: 104px;
+    }
+    .first-category h3,
+    .second-category h3,
+    .third-category h3 {
+        text-align: center;
+    }
+    .details-header h3 {
+        text-align: center;
+    }
+    .details-product {
+        padding-left: 41px;
+    }
+    .first-category img,
+    .second-category img,
+    .third-category img {
+        padding-left: 35px;
+    }
+    .details-full {
+        background-color: #F4ECEC;
+        box-shadow: 7px 7px 25px #ddd;
+        margin-top: 30px;
+    }
+    .footer-inner input {
+        margin-left: 70px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider-image img {
+        width: 367px;
+        padding-top: 45px;
+        padding-left: 137px;
+    }
+    .first-category h3,
+    .second-category h3,
+    .third-category h3 {
+        text-align: center;
+    }
+    .details-header h3 {
+        text-align: center;
+    }
+    .details-product {
+        padding-left: 105px;
+    }
+    .first-category img,
+    .second-category img,
+    .third-category img {
+        padding-left: 35px;
+    }
+    .details-full {
+        background-color: #F4ECEC;
+        box-shadow: 7px 7px 25px #ddd;
+        margin-top: 30px;
+    }
+    .footer-inner input {
+        margin-left: 144px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slider-image img {
+        width: 453px;
+        padding-top: 50px;
+        padding-left: 217px;
+    }
+    .first-category h3,
+    .second-category h3,
+    .third-category h3 {
+        text-align: center;
+    }
+    .first-category img,
+    .second-category img,
+    .third-category img {
+        padding-left: 35px;
+    }
+    .footer-inner input {
+        margin-left: 232px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .footer-inner input {
+        margin-left: 350px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up */
+
+@media (min-width: 1200px) {}
